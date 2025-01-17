@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: shadow;
+    src: url(Shadows_Into_Light/ShadowsIntoLight-Regular.ttf);
+}
+
+@font-face {
+    font-family: ceveat;
+    src: url(Caveat_Brush/CaveatBrush-Regular.ttf);
+}
+
+.size{
+    height: 600px;
+    width: 100%;
+    background-image: url(bg.jpg);
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+    background-size: cover; 
+}
+
+h1{
+    font-family: ceveat;
+    src: url(Caveat_Brush/CaveatBrush-Regular.ttf);
+    font-size: 100px !important;
+    font-weight: bolder;
+    text-align: center;
+    color:rgb(48, 10, 10) !important;
+    text-shadow: 7px 7px 7px rgb(143, 65, 65) !important;
+    padding-top: 120px !important;
+}
+
+#para{
+    font-family: shadow;
+    src: url(Shadows_Into_Light/ShadowsIntoLight-Regular.ttf);
+    font-size: 40px !important;
+    font-weight: bold;
+    text-align: center;
+    color: rgb(48, 10, 10);
+    padding-top: 20px !important;
+}
+
+.image{
+    height: 300px !important;
+    width: 300px !important;
+}
+
+.card{
+    border: none !important;
+}
+.gap{
+    display: flex;
+    gap: 100px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.move{
+    margin-left: 10px !important;
+}
+.move1{
+    margin-left: 20px !important;
+}
+.more{
+    padding-top: 50px;
+}
+
+.style1{
+    color:rgb(48, 10, 10) !important;
+}
+h2{
+    font-family: ceveat;
+    src: url(Caveat_Brush/CaveatBrush-Regular.ttf);
+    font-size: 70px !important;
+    font-weight: bolder;
+    text-align: center;
+    color:rgb(48, 10, 10) !important;
+    padding-top: 70px !important;
+    text-shadow: 7px 7px 7px rgb(143, 65, 65) !important;
+}
+
+h5{
+    font-family: shadow;
+    src: url(Shadows_Into_Light/ShadowsIntoLight-Regular.ttf);
+    font-size: 40px !important;
+    color: rgb(80, 40, 27) !important;
+}
+.style{
+    color: rgb(80, 40, 27) !important;
+}
