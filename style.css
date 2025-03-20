@@ -51,6 +51,7 @@ h1{
 
 .card{
     border: none !important;
+    box-shadow: 7px 7px 10px rgb(242, 195, 179) !important;
 }
 .gap{
     display: flex;
